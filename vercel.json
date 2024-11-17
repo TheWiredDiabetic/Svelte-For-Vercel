@@ -1,0 +1,11 @@
+{
+    "framework": "sveltekit",
+    "buildCommand": "npm run build",
+    "builds": [
+        {
+            "src": "app/package.json",
+            "use": "@vercel/node"
+        }
+    ],
+    "outputDirectory": "app/.svelte-kit/output"
+}
